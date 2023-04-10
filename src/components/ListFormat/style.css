@@ -1,0 +1,59 @@
+.List-wrapper {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.active {
+  background: radial-gradient(
+    50% 128.57% at 50% -36.61%,
+    #8015a7 0%,
+    rgba(97, 54, 144, 0) 100%
+  );
+}
+.active .LinkText {
+ font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 130%;
+/* identical to box height, or 22px */
+
+
+color: #FFFFFF !important;
+}
+.active .LinkIcon{
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border:  2px solid #fff;
+  color: white !important;
+}
+.active:hover {
+  background: radial-gradient(
+    50% 128.57% at 50% -36.61%,
+    #8015a7 0%,
+    rgba(97, 54, 144, 0) 100%
+  );
+}
+.LinkText {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 1rem !important;
+}
+.subscriptions {
+font-family: 'SF Pro Text';
+font-style: normal;
+font-weight: 600;
+margin-top: 19px;
+font-size: 13px;
+padding-left: 12px;
+line-height: 130%;
+/* identical to box height, or 17px */
+
+text-transform: uppercase;
+
+color: rgba(255, 255, 255, 0.5);
+}
