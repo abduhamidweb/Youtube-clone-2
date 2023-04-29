@@ -7,9 +7,9 @@ import Sidebar from './components/Sidebar/Sidebar'
 import Navbar from './UI/Navbar/Navbar'
 import axios from 'axios'
 import MyModal from './components/Modal/MyModal'
-
+import KEYAtuhe from "../config.js";
 function App() {
-  const APIYOUTUBE = 'AIzaSyDSddf4L5rV_i3DZLHBUinq0LxW-wf59_o'
+  const APIYOUTUBE = KEYAtuhe.keyAUTH
   // fetch videos
 
   const [videos, setVideos] = useState([]);
